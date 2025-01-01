@@ -1,0 +1,27 @@
+Package: ipapi.r
+Type: Package
+Title: Retrieve and Analyze IP Address Information
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "Jinhwan", "Kim",
+      email = "hwanistic@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A package to retrieve information about IP addresses using APIs. 
+    It provides functionality to query, parse, and analyze IP address data, 
+    including geolocation and other metadata. Designed for developers and data scientists 
+    needing IP-based insights for their projects.
+License: MIT + file LICENSE
+URL: https://github.com/jhk0530/ipapi.r
+BugReports: https://github.com/jhk0530/ipapi.r/issues
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    httr2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
